@@ -14,9 +14,10 @@
 		BD1DE8D72858866800DE5C31 /* WaybackBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1DE8D62858866800DE5C31 /* WaybackBrowserTests.swift */; };
 		BD1DE8E12858866800DE5C31 /* WaybackBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1DE8E02858866800DE5C31 /* WaybackBrowserUITests.swift */; };
 		BD1DE8E32858866800DE5C31 /* WaybackBrowserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1DE8E22858866800DE5C31 /* WaybackBrowserUITestsLaunchTests.swift */; };
-		BD1DE8F02858879000DE5C31 /* Run.py in Resources */ = {isa = PBXBuildFile; fileRef = BD1DE8EF2858879000DE5C31 /* Run.py */; };
 		BD1DE8F32858899300DE5C31 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = BD1DE8F22858899300DE5C31 /* PythonKit */; };
 		BD1DE8F62858F8AA00DE5C31 /* SwiftExec in Frameworks */ = {isa = PBXBuildFile; productRef = BD1DE8F52858F8AA00DE5C31 /* SwiftExec */; };
+		BD1DE8FA2858F99300DE5C31 /* home.html in Resources */ = {isa = PBXBuildFile; fileRef = BD1DE8F92858F99300DE5C31 /* home.html */; };
+		BD1DE8FC2858FA7B00DE5C31 /* loadpage.html in Resources */ = {isa = PBXBuildFile; fileRef = BD1DE8FB2858FA7B00DE5C31 /* loadpage.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +49,8 @@
 		BD1DE8DC2858866800DE5C31 /* WaybackBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaybackBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1DE8E02858866800DE5C31 /* WaybackBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaybackBrowserUITests.swift; sourceTree = "<group>"; };
 		BD1DE8E22858866800DE5C31 /* WaybackBrowserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaybackBrowserUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		BD1DE8EF2858879000DE5C31 /* Run.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = Run.py; sourceTree = "<group>"; };
+		BD1DE8F92858F99300DE5C31 /* home.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = home.html; sourceTree = "<group>"; };
+		BD1DE8FB2858FA7B00DE5C31 /* loadpage.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = loadpage.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +107,8 @@
 				BD1DE8C62858866600DE5C31 /* ViewController.swift */,
 				BD1DE8C82858866800DE5C31 /* Assets.xcassets */,
 				BD1DE8CA2858866800DE5C31 /* Main.storyboard */,
-				BD1DE8EF2858879000DE5C31 /* Run.py */,
+				BD1DE8F92858F99300DE5C31 /* home.html */,
+				BD1DE8FB2858FA7B00DE5C31 /* loadpage.html */,
 				BD1DE8CD2858866800DE5C31 /* WaybackBrowser.entitlements */,
 			);
 			path = WaybackBrowser;
@@ -241,8 +244,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD1DE8C92858866800DE5C31 /* Assets.xcassets in Resources */,
+				BD1DE8FC2858FA7B00DE5C31 /* loadpage.html in Resources */,
+				BD1DE8FA2858F99300DE5C31 /* home.html in Resources */,
 				BD1DE8CC2858866800DE5C31 /* Main.storyboard in Resources */,
-				BD1DE8F02858879000DE5C31 /* Run.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
