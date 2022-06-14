@@ -718,8 +718,19 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EvZ-GR-sdK">
+                                <rect key="frame" x="12" y="231" width="64" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Back" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="KKp-lG-oGp">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="back:" target="XfG-lQ-9wD" id="80B-gz-pX3"/>
+                                </connections>
+                            </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Te7-0f-EZF">
-                                <rect key="frame" x="79" y="231" width="84" height="32"/>
+                                <rect key="frame" x="78" y="231" width="84" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="push" title="Forward" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="KKy-6b-xph">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -730,8 +741,8 @@
                                 </connections>
                             </button>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jdx-KM-PhE">
-                                <rect key="frame" x="172" y="238" width="262" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <rect key="frame" x="171" y="238" width="184" height="21"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" borderStyle="bezel" drawsBackground="YES" id="Iva-T3-NeX">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -741,21 +752,26 @@
                                     <action selector="textFieldActionWithSender:" target="XfG-lQ-9wD" id="iSq-y3-kgU"/>
                                 </connections>
                             </textField>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EvZ-GR-sdK">
-                                <rect key="frame" x="13" y="231" width="64" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="push" title="Back" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="KKp-lG-oGp">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <datePicker verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ABE-4y-hoW">
+                                <rect key="frame" x="378" y="238" width="97" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <datePickerCell key="cell" borderStyle="bezel" alignment="left" useCurrentDate="YES" id="nbK-QB-EKF">
                                     <font key="font" metaFont="system"/>
-                                </buttonCell>
+                                    <date key="date" timeIntervalSinceReferenceDate="676921508.04212201">
+                                        <!--2022-06-14 17:45:08 +0000-->
+                                    </date>
+                                    <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                </datePickerCell>
                                 <connections>
-                                    <action selector="back:" target="XfG-lQ-9wD" id="80B-gz-pX3"/>
+                                    <action selector="datePickerChanged:" target="XfG-lQ-9wD" id="TQn-dH-MlD"/>
                                 </connections>
-                            </button>
+                            </datePicker>
                         </subviews>
                     </view>
                     <connections>
                         <outlet property="back" destination="EvZ-GR-sdK" id="Nl3-I1-wOc"/>
+                        <outlet property="datePicker" destination="ABE-4y-hoW" id="Ylw-xl-FYI"/>
                         <outlet property="forward" destination="Te7-0f-EZF" id="7mf-dS-Xp5"/>
                         <outlet property="searchBar" destination="Jdx-KM-PhE" id="dMl-ax-p9i"/>
                         <outlet property="webView" destination="AIq-AG-52s" id="KBB-JP-FvC"/>
