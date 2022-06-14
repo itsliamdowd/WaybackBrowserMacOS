@@ -3,6 +3,8 @@
 
 A browser for wayback machine pages (https://archive.org/web/) which allows a user to choose a date and load websites like a regular browser as if they were viewed in the date inputted. For example, loading the google website in the 90s and 2000s as well as the current website all in a traditional browser environment.
 
+<img width="1095" alt="Screen Shot 2022-06-14 at 11 28 13 AM" src="https://user-images.githubusercontent.com/101684827/173663106-8b28d3fe-9060-4e7d-bfbf-ec76d392c68f.png">
+
 <h2><strong>📌 TODO</strong></h2>
 
 - Make a better user interface on the application side of things
