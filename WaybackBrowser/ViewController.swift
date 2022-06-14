@@ -7,8 +7,6 @@
 
 import Cocoa
 import WebKit
-import PythonKit
-import SwiftExec
 
 class ViewController: NSViewController, WKUIDelegate, WKNavigationDelegate, NSTextFieldDelegate {
 

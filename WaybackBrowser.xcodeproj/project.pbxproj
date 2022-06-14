@@ -14,8 +14,6 @@
 		BD1DE8D72858866800DE5C31 /* WaybackBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1DE8D62858866800DE5C31 /* WaybackBrowserTests.swift */; };
 		BD1DE8E12858866800DE5C31 /* WaybackBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1DE8E02858866800DE5C31 /* WaybackBrowserUITests.swift */; };
 		BD1DE8E32858866800DE5C31 /* WaybackBrowserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1DE8E22858866800DE5C31 /* WaybackBrowserUITestsLaunchTests.swift */; };
-		BD1DE8F32858899300DE5C31 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = BD1DE8F22858899300DE5C31 /* PythonKit */; };
-		BD1DE8F62858F8AA00DE5C31 /* SwiftExec in Frameworks */ = {isa = PBXBuildFile; productRef = BD1DE8F52858F8AA00DE5C31 /* SwiftExec */; };
 		BD1DE8FA2858F99300DE5C31 /* home.html in Resources */ = {isa = PBXBuildFile; fileRef = BD1DE8F92858F99300DE5C31 /* home.html */; };
 		BD1DE8FC2858FA7B00DE5C31 /* loadpage.html in Resources */ = {isa = PBXBuildFile; fileRef = BD1DE8FB2858FA7B00DE5C31 /* loadpage.html */; };
 /* End PBXBuildFile section */
@@ -58,8 +56,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD1DE8F32858899300DE5C31 /* PythonKit in Frameworks */,
-				BD1DE8F62858F8AA00DE5C31 /* SwiftExec in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,8 +144,6 @@
 			);
 			name = WaybackBrowser;
 			packageProductDependencies = (
-				BD1DE8F22858899300DE5C31 /* PythonKit */,
-				BD1DE8F52858F8AA00DE5C31 /* SwiftExec */,
 			);
 			productName = WaybackBrowser;
 			productReference = BD1DE8C12858866600DE5C31 /* WaybackBrowser.app */;
@@ -618,19 +612,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		BD1DE8F22858899300DE5C31 /* PythonKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = BD1DE8F12858899300DE5C31 /* XCRemoteSwiftPackageReference "PythonKit" */;
-			productName = PythonKit;
-		};
-		BD1DE8F52858F8AA00DE5C31 /* SwiftExec */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = BD1DE8F42858F8AA00DE5C31 /* XCRemoteSwiftPackageReference "swift-exec" */;
-			productName = SwiftExec;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BD1DE8B92858866600DE5C31 /* Project object */;
 }
